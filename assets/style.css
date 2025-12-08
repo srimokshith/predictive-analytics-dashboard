@@ -1,0 +1,129 @@
+/* Dark theme with gradient */
+.stApp {
+    background: linear-gradient(180deg, #0f0f1a 0%, #1a1a2e 50%, #16213e 100%);
+}
+
+/* Metrics cards */
+[data-testid="stMetric"] {
+    background: linear-gradient(135deg, rgba(46,134,171,0.2) 0%, rgba(40,167,69,0.1) 100%);
+    border: 1px solid rgba(46,134,171,0.3);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+[data-testid="stMetricValue"] {
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #8892b0 !important;
+    font-weight: 500 !important;
+}
+
+/* Tabs styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 10px;
+    background: rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background: rgba(255,255,255,0.05);
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #ccd6f6;
+    font-weight: 500;
+}
+
+.stTabs [aria-selected="true"] {
+    background: linear-gradient(135deg, #2E86AB 0%, #28A745 100%);
+    color: white;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0a0a14 0%, #12121f 100%);
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+[data-testid="stSidebar"] .stRadio label {
+    color: #ccd6f6 !important;
+}
+
+/* Headers */
+h1 {
+    background: linear-gradient(90deg, #2E86AB, #28A745);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800 !important;
+}
+
+h2, h3 {
+    color: #ccd6f6 !important;
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(135deg, #2E86AB 0%, #1a5276 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(46,134,171,0.3);
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(46,134,171,0.4);
+}
+
+/* Download button */
+.stDownloadButton > button {
+    background: linear-gradient(135deg, #28A745 0%, #1e7e34 100%);
+    box-shadow: 0 4px 15px rgba(40,167,69,0.3);
+}
+
+/* Selectbox & Slider */
+.stSelectbox, .stSlider {
+    background: rgba(255,255,255,0.03);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/* Dataframe */
+.stDataFrame {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* File uploader */
+[data-testid="stFileUploader"] {
+    background: rgba(255,255,255,0.03);
+    border: 2px dashed rgba(46,134,171,0.5);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+/* Plotly charts */
+.js-plotly-plot {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Multiselect */
+.stMultiSelect {
+    background: rgba(255,255,255,0.03);
+    border-radius: 8px;
+}
+
+/* Info/Warning boxes */
+.stAlert {
+    border-radius: 10px;
+    border: none;
+}
