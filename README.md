@@ -1,6 +1,6 @@
 # 📊 Predictive Analytics Dashboard
 
-Interactive dashboard for trend-based predictions, seasonality detection, and anomaly analysis.
+Interactive dashboard for trend-based predictions, seasonality detection, and anomaly analysis..
 
 ## Features
 - 📈 Historical data visualization
